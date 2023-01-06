@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Ubuntu:wght@500&display=swap');
 
 /* Common Style */
 * {
@@ -10,10 +10,10 @@
 
 h1,
 h3 {
-  font-family: 'Rowdies', cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 h2{
-  font-family: 'Rowdies', cursive;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
@@ -68,6 +68,9 @@ header {
   color: rgb(255, 255, 255);
   display: flex;
   gap: 5rem;
+}
+.contact>p{
+  margin: auto;
 }
 .num{
   padding-right: 2rem;
