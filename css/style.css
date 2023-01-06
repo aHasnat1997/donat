@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Rowdies&display=swap');
+
+/* Common Style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Rowdies', cursive;
+}
+button{
+  margin: 2rem;
+  padding: 1rem 2rem;
+  background-color: #ff3c00;
+  color: #fff;
+  border: 0;
+  border-radius: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* Common Style */
+
+/* Header */
+header {
+  background: linear-gradient(to top, #000000, #ffffff00), url(../images/donation9.jpg) no-repeat;
+  background-size: cover;
+  height: 95vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headerTitel{
+  color: #ffffff;
+  font-size: 3rem;
+}
+.headerParagraph{
+  color: #c5c5c5;
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+/* Header */
